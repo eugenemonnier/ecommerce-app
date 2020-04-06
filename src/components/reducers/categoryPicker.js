@@ -56,6 +56,8 @@ const categoryPicker = (state = initialState, action) => {
       if (!action.payload) return initialState
       products = initialState.products.filter(product => product.categoryName === action.payload)
       return { ...state, selectedCategory: action.payload, products: products }
+    case 'FETCH-CATEGORIES':
+      return { ...state, categories: action.payload }
     default:
       return state
   }

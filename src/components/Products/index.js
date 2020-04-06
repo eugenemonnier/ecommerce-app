@@ -2,7 +2,7 @@ import React from 'react'
 import { Table } from 'react-bootstrap'
 import { connect } from 'react-redux'
 import './products.scss'
-import { addToCart } from '../actions'
+import { addToCart, decreaseInventory } from '../actions'
 
 const mapStateToProps = state => {
   return {
@@ -10,7 +10,7 @@ const mapStateToProps = state => {
   }
 }
 
-const mapDispatchToProps = { addToCart }
+const mapDispatchToProps = { addToCart, decreaseInventory }
 
 const Products = ({ products, addToCart }) => {
   return (
@@ -29,7 +29,10 @@ const Products = ({ products, addToCart }) => {
             <img
               src={require(`./${product.image}`)}
               alt={product.productName}
-              onClick={() => { addToCart(product) }}
+              onClick={() => {
+                addToCart(product)
+                decreaseInventory(product)
+              }}
             />
             <td>{product.productName}</td>
             <td>{product.inventory}</td>

@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "name": "Choclates"
+    },
+    {
+      "name": "Baked Goods"
+    },
+    {
+      "name": "Fruit"
+    },
+    {
+      "name": "Cheese"
+    },
+    {
+      "name": "Wine"
+    }
+  ],
+  "products": [
+    { "id": 0, "image": "assets/cherry-cordials.jpeg", "inventory": 99, "categoryName": "Choclates", "productName": "Cherry Cordials", "price": "$9.99/box of 12" },
+    { "id": 1, "image": "assets/chocolate-covered-strawberries.jpg", "inventory": 99, "categoryName": "Choclates", "productName": "Chocolate Covered Strawberries", "price": "$3.99/ea" },
+    { "id": 2, "image": "assets/chocolate-covered-cherries.jpg", "inventory": 99, "categoryName": "Choclates", "productName": "Chocolate Covered Cherries", "price": "$4.99/bundle" },
+    { "id": 3, "image": "assets/chocolate-truffles.jpg", "inventory": 99, "categoryName": "Choclates", "productName": "Chocolate Truffles", "price": "$12.99/box of 12" },
+    { "id": 4, "image": "assets/milk-chocolate-bar.jpg", "inventory": 99, "categoryName": "Choclates", "productName": "Solid Milk Chocolate Bar", "price": "$2.99/ea" },
+    { "id": 5, "image": "assets/dark-chocolate-bar.jpg", "inventory": 99, "categoryName": "Choclates", "productName": "Solid Dark Chocolate Bar", "price": "$2.99/ea" },
+    { "id": 6, "image": "assets/baklava.jpg", "inventory": 99, "categoryName": "Baked Goods", "productName": "Baklava", "price": "$11.99/ea" },
+    { "id": 7, "image": "assets/lemon-poppy-seed-cake.jpg", "inventory": 99, "categoryName": "Baked Goods", "productName": "Lemon Poppy Seed Cake", "price": "$20.99" },
+    { "id": 8, "image": "assets/cinnamon-rolls.jpg", "inventory": 99, "categoryName": "Baked Goods", "productName": "Cinnamon Roll", "price": "$10.99" },
+    { "id": 9, "image": "assets/fruitcake.jpg", "inventory": 99, "categoryName": "Baked Goods", "productName": "Fruitcake", "price": "FREE" },
+    { "id": 10, "image": "assets/chocolate-cake.jpg", "inventory": 99, "categoryName": "Baked Goods", "productName": "Chocolate Cake", "price": "$23.99" },
+    { "id": 11, "image": "assets/apple-fritter.jpg", "inventory": 99, "categoryName": "Baked Goods", "productName": "Apple Fritter", "price": "$11.99" },
+    { "id": 12, "image": "assets/coffee-cake.jpg", "inventory": 99, "categoryName": "Baked Goods", "productName": "Coffee Cake", "price": "$8.99" },
+    { "id": 13, "image": "assets/bosc-pears.jpg", "inventory": 99, "categoryName": "Fruit", "productName": "Bosc Pears", "price": "$3.99/ea" },
+    { "id": 14, "image": "assets/grannysmith-apples.jpg", "inventory": 99, "categoryName": "Fruit", "productName": "Grannysmith Apples", "price": "$2.99/ea" },
+    { "id": 15, "image": "assets/watermelon.jpg", "inventory": 99, "categoryName": "Fruit", "productName": "Watermelon", "price": "$15.99/ea" },
+    { "id": 16, "image": "assets/star-fruit.jpg", "inventory": 99, "categoryName": "Fruit", "productName": "Star Fruit", "price": "$4.99/ea" },
+    { "id": 17, "image": "assets/brie.jpeg", "inventory": 99, "categoryName": "Cheese", "productName": "Triple Cream Brie", "price": "$12.99/ea" },
+    { "id": 18, "image": "assets/white-cheddar.jpeg", "inventory": 99, "categoryName": "Cheese", "productName": "Sharp White Cheddar", "price": "$11.99/ea" },
+    { "id": 19, "image": "assets/grano-podano.png", "inventory": 99, "categoryName": "Cheese", "productName": "Grano Podano", "price": "$17.99/ea" },
+    { "id": 20, "image": "assets/manchego.jpeg", "inventory": 99, "categoryName": "Cheese", "productName": "Manchego", "price": "$14.99/ea" },
+    { "id": 21, "image": "assets/asiago.jpeg", "inventory": 99, "categoryName": "Cheese", "productName": "Aged Asiago", "price": "$16.99/ea" },
+    { "id": 22, "image": "assets/pinot-noir.jpeg", "inventory": 99, "categoryName": "Wine", "productName": "Pinot Noir", "price": "$32.99/ea" },
+    { "id": 23, "image": "assets/pinot-grigio.jpg", "inventory": 99, "categoryName": "Wine", "productName": "Pinot Grigio", "price": "$27.99/ea" },
+    { "id": 24, "image": "assets/cabernet-sauvignon.jpg", "inventory": 99, "categoryName": "Wine", "productName": "Cabernet Sauvignon", "price": "$39.99/ea" },
+    { "id": 25, "image": "assets/sauvignon-blanc.jpeg", "inventory": 99, "categoryName": "Wine", "productName": "Sauvignon Blanc", "price": "$34.99/a" },
+    { "id": 26, "image": "assets/dry-riesling.jpg", "inventory": 99, "categoryName": "Wine", "productName": "Dry Riesling", "price": "$30.99/ea" },
+    { "id": 27, "image": "assets/petite-sirah.jpg", "inventory": 99, "categoryName": "Wine", "productName": "Petite Sirah", "price": "$40.99/ea" }
+  ]
+}
