@@ -1,7 +1,7 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
 import { connect } from 'react-redux'
-import { deleteFromCart } from '../actions'
+import { deleteFromCart, increaseInventory } from '../actions'
 
 const mapStateToProps = state => {
   return {
@@ -10,12 +10,12 @@ const mapStateToProps = state => {
   }
 }
 
-const mapDispatchToProps = { deleteFromCart }
+const mapDispatchToProps = { deleteFromCart, increaseInventory }
 
 const Cart = ({ cart, deleteFromCart }) => {
   return (
     <>
-      <h3>Cart Contents</h3>
+      <h3 id='go-to-cart'>Cart Contents</h3>
       <Table variant='sm' striped bordered>
         <thead>
           <tr>
@@ -31,7 +31,10 @@ const Cart = ({ cart, deleteFromCart }) => {
                 <img
                   src={require(`./../Products/${product.image}`)}
                   alt={product.productName}
-                  onClick={() => { deleteFromCart(product) }}
+                  onClick={() => {
+                    deleteFromCart(product)
+                    increaseInventory(product)
+                  }}
                 />
                 <td>{product.productName}</td>
                 <td>{product.price}</td>

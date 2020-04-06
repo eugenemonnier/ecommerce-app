@@ -20,6 +20,20 @@ export function deleteFromCart (product) {
   }
 }
 
+export function decreaseInventory (product) {
+  return {
+    type: 'DECREASE-INVENTORY',
+    payload: product
+  }
+}
+
+export function increaseInventory (product) {
+  return {
+    type: 'INCREASE-INVENTORY',
+    payload: product
+  }
+}
+
 export function reset () {
   return {
     type: 'RESET'
